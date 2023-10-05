@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point
  *
- * This prints a statement with printf.
- * 
- * return: always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
