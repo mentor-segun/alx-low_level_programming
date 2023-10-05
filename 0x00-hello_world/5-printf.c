@@ -1,7 +1,9 @@
 #include <stdio.h>
 /*
  * main - entry point
- * This C program prints exactly 'with proper grammar, but the outcome is a piece of art,', followed by a new line.
+ * 
+ * This prints a statement with printf.
+ *
  * return: always 0 (success)
  */
 int main(void)
