@@ -1,21 +1,18 @@
 #include "main.h"
-
 /**
- * main This program prints _putchar and a new line
- *
- * Return : return 0
+ * main - Entry point
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
-	char var[10] = "_putchar";
+	char *sh = "_putchar";
 
-	int i;
-
-	for (i = 0; i < 8; i++)
+	while (*sh)
 	{
-		_putchar(var[i]);
+		_putchar(*sh);
+		sh++;
 	}
-	_putchar(10);
+	_putchar('\n');
+
 	return (0);
 }
