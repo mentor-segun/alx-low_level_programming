@@ -3,21 +3,16 @@
 /**
  * main - Entry point
  *
- * print_putchar - This program prints _putchar and a new line
- *	The print_putchar does not return any value
+ * print_putchar - This function prints "_putchar" followed by a new line
+ *
+ * print_putchar - The print_putchar function does not return any value
  *
  * Return: Always 0 (success)
  */
 
-void print_putchar(void);
+#include "main.h"
 
 int main(void)
-{
-	print_putchar();
-	return (0);
-}
-
-void print_putchar(void)
 {
 	char str[] = "_putchar\n";
 	int i = 0;
@@ -27,4 +22,6 @@ void print_putchar(void)
 		_putchar(str[i]);
 		i++;
 	}
+
+return (0);
 }
