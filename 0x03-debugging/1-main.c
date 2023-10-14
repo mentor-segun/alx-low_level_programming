@@ -13,8 +13,8 @@ int main(void)
 
 	i = 0;
 
-	while (i < 10)
-		/** Comment out the while loop to avoid the infinite loop */
+	/** while (i < 10)
+	*/
 	{
 		/** putchar(i); */
 	}
