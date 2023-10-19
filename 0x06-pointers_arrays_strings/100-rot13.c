@@ -15,7 +15,9 @@ char *rot13(char *str)
 		if ((str[i] >= 'A' && str[i] <= 'Z') || (str[i] >= 'a' && str[i] <= 'z'))
 		{
 			char base = (str[i] >= 'a') ? 'a' : 'A';
+
 			str[i] = base + ((str[i] - base + 13) % 26);
+
 		}
 	}
 
