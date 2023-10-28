@@ -7,7 +7,7 @@
  *
  * Return: 0
  */
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
 	/* Print the number of arguments (argc - 1 as argv[0] is the program name) */
 	printf("%d\n", argc - 1);
