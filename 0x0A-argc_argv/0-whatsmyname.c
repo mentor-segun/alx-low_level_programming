@@ -4,10 +4,10 @@
  * main - Entry point of the program
  * @argc: Number of arguments passed to the program
  * @argv: Array of strings containing the arguments
- * 
+ *
  * Return: 0 on success, 1 on error
  */
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
 	/* Check if there's at least one argument */
 	if (argc > 0)
