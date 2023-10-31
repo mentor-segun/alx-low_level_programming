@@ -9,10 +9,10 @@
  */
 int is_positive_number(char *s)
 {
-	while (*s != '\0') 
+	while (*s != '\0')
 	{
 		if (*s < '0' || *s > '9')
-			return 	(0);
+			return (0);
 		s++;
 	}
 	return (1);
